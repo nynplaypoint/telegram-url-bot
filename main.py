@@ -195,7 +195,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         + code("https://example.com myalias") + "\n\n"
         + b("Switch service:") + "\n"
         + code("/switch") + " — cycle to next\n"
-        + code("/switch isgd") + " — is.gd (default)\n"
+        + code("/switch isgd") + " — `is.gd` (default)\n"
         + code("/switch vgd") + " — v.gd\n"
         + code("/switch tinyurl") + " — TinyURL\n\n"
         + code("/service") + " — show active service\n"
